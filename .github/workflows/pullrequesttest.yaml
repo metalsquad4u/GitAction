@@ -3,7 +3,7 @@ name: Demo test for pull request
 on:
   push:
     branches:
-      -main:
+      - main
 
 jobs:
   updateAuthor:
