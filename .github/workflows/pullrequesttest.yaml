@@ -44,4 +44,3 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ steps.demo-1.outputs.pull-request-number }}
           method: squash
-      
