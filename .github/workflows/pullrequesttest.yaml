@@ -32,15 +32,3 @@ jobs:
             This is a test for automatic pull request
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Approve pull request
-        uses: juliangruber/approve-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.APPROVER_DEMO }}
-          number: ${{ steps.demo-1.outputs.pull-request-number }}
-
-      - name: Merge Pull request
-        uses: juliangruber/merge-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.demo-1.outputs.pull-request-number }}
-          method: squash
