@@ -3,7 +3,7 @@ name: Demo test for pull request
 on:
   push:
     branches:
-      - new-branch
+      - main
 
 jobs:
   updateAuthor:
@@ -31,4 +31,5 @@ jobs:
           body:
             This is a test for automatic pull request
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true
 
