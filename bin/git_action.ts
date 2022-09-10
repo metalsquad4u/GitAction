@@ -11,5 +11,6 @@ new GitActionStack(app, 'GitActionStack', {
     region: 'us-east-1' },
 
     //Adding another line to test Pull Request
+    /****We are adding more line to test the automatic pull request */
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });

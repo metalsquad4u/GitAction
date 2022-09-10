@@ -27,4 +27,5 @@ jobs:
           body: 
             This is the automatic pr creation
           token: ${{ secrets.GITHUB_TOKEN }}
+          reviewers: sulazhy
           delete-branch: true
