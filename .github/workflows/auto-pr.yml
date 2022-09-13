@@ -23,7 +23,7 @@ jobs:
           signoff: false
           branch: Auto-PR-Branch
           delete-branch: true
-          title: 'Demo Test for auto Pull Request'
+          title: 'Demo Test for auto Pull Request for new-branch BRANCH'
           body: |
             This is the test automatic pull request creation and up for your review
             - Updated with *today's* date
