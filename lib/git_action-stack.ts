@@ -24,6 +24,6 @@ export class GitActionStack extends cdk.Stack {
       //encryptionKey: key,
     });
 
-
+    //This is a test for automatic PR in the stack file
   } 
 }
