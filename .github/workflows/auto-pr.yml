@@ -9,15 +9,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Make changes to pull request
-        run: date +%s > report.txt
+      #- name: Make changes to pull request
+        #run: date +%s > report.txt
 
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update report
+          #commit-message: Update report
           committer: Abdulakeem <metalsquad4u@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
